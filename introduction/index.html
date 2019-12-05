@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Introduction</title>
+</head>
+<body>
+<h2>Javascript bisa apa?</h2>
+<p id="demo">Javascript bisa merubah konten dari suatu elemen HTML</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Halo js!"'>Button Rubah Konten!</button>
+<br/>
+<p id="demo_quote">Javascript bisa menggunakan baik single maupun double quote</p>
+<button type="button" onclick="document.getElementById('demo_quote').innerHTML = 'Merubah dengan variasi quote!'">Button Rubah Konten Dengan Variasi Quote!</button>
+<br/>
+<h2>Lets call it a 'saklar'</h2>
+<p>Javascript juga dapat merubah value atribut src pada gambar</p>
+<br/>
+<button type="button" onclick="document.getElementById('myImage').src='src/pic_bulbon.gif'">Button Nyalakan Lampu!</button>
+<img id="myImage" src="src/pic_bulboff.gif" />
+<button type="button" onclick="document.getElementById('myImage').src='src/pic_bulboff.gif'">Button Matikan Lampu!</button>
+</body>
+</html>
